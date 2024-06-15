@@ -1,0 +1,16 @@
+
+.post{
+    margin-bottom: 40px;
+    border-radius: var(--size-border-reduis);
+    background-color: var(--color-secondary);
+    color: #111;
+    padding: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(223, 217, 217, 0.1);
+}
+.title{
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.text{
+    font-size: 22px;
+}

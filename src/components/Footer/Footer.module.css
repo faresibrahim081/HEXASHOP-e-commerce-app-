@@ -1,0 +1,31 @@
+.container{
+    position: relative;
+    height: 50px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container::before{
+    content: '';
+    height: 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-secondary);
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon{
+    opacity: 0.5;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.icon:hover{
+    opacity: 1;
+}
